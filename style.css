@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   font-family: 'Kalam',cursive;
+   height: 100vh;
+   background-color: transparent;
+   background-image: url(logo.png);
+    position: relative;
+    background-repeat    : no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position  : center;
+
+  
+
+}
+
+.hero{
+    font-family: 'Kalam',cursive;
+    font-size: 40px;
+    text-align: center;
+    border: 5px solid red;
+    background-color: rgb(41, 20, 224);
+    color: rgb(246, 250, 31);
+    padding: 10px;
+}
+footer{
+    background-color: rgb(41, 20, 224);
+    border: yellow solid 5px;
+    height: 40vh;
+    text-align: center;
+}
+.box1{
+    height:-fit-content;
+    position: relative;
+    background-size: contain;
+    background-position: center; 
+
+}
+.box2{
+    height:-fit-content;
+    position: relative;
+    background-size: contain;
+    background-position: center;
+    background-color: yellow;
+    border: 5px solid yellow; 
+}
+p{
+    text-align : center;
+    font-size  : large;
+    font-weight: bold;
+    color: rgb(252, 248, 9);
+    /* border: 5px rgb(4, 252, 219) solid; */
+}
+pre{
+    font-family: 'Kalam',
+cursive;
+color: rgb(26, 94, 20);
+}
+.box3{
+    /* height: 150vh; */
+}
+.box4{
+    height: 400vh;  
+}
+#bho{
+    background-color: aqua;
+    border: 2px soild yellow;
+}
+h2{
+    color: rgb(247, 243, 4);
+}
+#footer .social-links {
+  margin: 0 0 40px 0;
+}
+#footer .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #0563bb;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+#footer .social-links a:hover {
+  background: #0678e3;
+  color: #fff;
+  text-decoration: none;
